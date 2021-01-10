@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
 * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Belleza', sans-serif;
 }
 
 :root{
@@ -16,5 +17,18 @@ a:hover {color: var(--orange-dark);}
     padding: 10px; 
     text-transform: uppercase;
 }
+.user-area {text-transform: uppercase;}
 
 svg {font-size: 40px !important;}
+
+.card-home {
+    background-image: url('../assets/cover-home.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+.overlay {
+    height: 500px;
+    width: 100%;
+    background-color: rgba(236, 239, 239, 0.6);
+}

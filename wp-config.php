@@ -23,10 +23,10 @@
 define( 'DB_NAME', 'helena-guerra' );
 
 /** Usuário do banco de dados MySQL */
-define( 'DB_USER', 'phpmyadmin' );
+define( 'DB_USER', 'root' );
 
 /** Senha do banco de dados MySQL */
-define( 'DB_PASSWORD', 'ht__localhost' );
+define( 'DB_PASSWORD', '' );
 
 /** Nome do host do MySQL */
 define( 'DB_HOST', 'localhost' );
@@ -50,14 +50,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'x<IIMK(k8zk U,@s<%9u@[i/f`j)~rH]wH:T_xo;8[;<n8j^k,syAt--npTp2p*V' );
-define( 'SECURE_AUTH_KEY',  '>rub4PlI~aUk^YG5Mws`G}th?{`lU#= 9IJw}JLCrjH-0:c2s-LV&Iq[8v:E!~_?' );
-define( 'LOGGED_IN_KEY',    'tHd](bmI[0T!J3UUPT|YXEP=+/AG0pJ+lLR$@NBlKEo5<HV8:C.,8q@L4-SAT@?z' );
-define( 'NONCE_KEY',        'OKO9 3@pT^eNqLC^C(~-#ka}a3+~73i+,5WBrp?%c5hxoq?ZL9BN#xNNpst?/v#1' );
-define( 'AUTH_SALT',        '8zRMC8gIa0O]I8g[k_;XNJ*JPFpIdqomOIFJU4K50(_+mO^1bxy>|6?-T1!lu KQ' );
-define( 'SECURE_AUTH_SALT', 'S(Y;yx>t2n>LDGE!8m?y]ESz0WYetQa^`|F}#d!Wlvb#+C;Sc|iJriHS]Wj}l3b-' );
-define( 'LOGGED_IN_SALT',   'X_h=`o2-[2*PC|!NbFvB0[[[jr27mP#i!$u}~5M>LC(yz;<Qu1>HH$)v+To8];Ma' );
-define( 'NONCE_SALT',       'o>$3?r#eA?Lzm$x%<IG/;U?YIW50tFrf|uWtWYiSkEki=xaq32W@qQt=oP*Zy-)M' );
+define( 'AUTH_KEY',         'x/%*fEf :SvRhh%BHRZ+;9cu7mR-W8z<:|VrvOCEcNF<9|If{lig8?mQW^+y8:]K' );
+define( 'SECURE_AUTH_KEY',  'erHKs^sB##^Z%9%@7{{g`@&^U~4YG/%n(_8A`d*<,SMG9Bg!9Y@Gz_UA_2g~$o~P' );
+define( 'LOGGED_IN_KEY',    'u_?DyG<U&T/:0u|V]4(%>/T@>zQF!s9UYbdX*.O 9zn^X{|6d-X)UZ)`d%fXj6ep' );
+define( 'NONCE_KEY',        ':^o|u0b%l2aRGig`SSwSVxC4Oo.|z6~T&T,cs<5MB/$rP^P=Fn;S^aNZcdb)=y]1' );
+define( 'AUTH_SALT',        'x]9-H_k@xhzSgXz5CndI94pS7mT Ki(RzA`2tpSiS&((z=QUJ%#:CX1}+U0|>^/D' );
+define( 'SECURE_AUTH_SALT', 'LKvEnRwK7kss#_6(KMW K0#kP($}W,s).=,WR8YuIDqLmpQ75(8_z2i*<_wtbk5?' );
+define( 'LOGGED_IN_SALT',   '4L5I$cooApCx KgES>|[U_x`_}H@3|.T}{E_Icx{KRUgXV7+$-!WCA~8%@>hEr=-' );
+define( 'NONCE_SALT',       '(z]5Z{-|eb3gzg$u0`}NqI=uD<dvUdkJit2Y?@af, L{qWpQX9q~3$Nzc_8+TQD$' );
 
 /**#@-*/
 
@@ -93,3 +93,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Configura as variáveis e arquivos do WordPress. */
 require_once ABSPATH . 'wp-settings.php';
+	
