@@ -9,3 +9,24 @@
         ?>
         <p>Não foi encontrado nenhum post ... </p>
         <?php endif; ?>
+
+
+
+
+
+ <section class="navbar py-2 justify-content-center bg-light">
+            <div class="row">
+                <nav class="menu col-md-12 mt-3 text-center">
+                    <?php 
+                        wp_nav_menu ( 
+                            array ( 
+                                'theme_location' => 'principal_menu'
+                            ) 
+                        );
+                    ?>
+                </nav>
+            </div>
+        </section>
+
+
+<img class="img-fluid" src="<?php logo_image(); ?>" width="<?php echo get_custom_logo()->width ?>" height="<?php echo get_custom_logo()->height ?>" alt="" srcset="">

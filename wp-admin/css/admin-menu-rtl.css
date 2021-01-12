@@ -4,7 +4,8 @@
 #adminmenu,
 #adminmenu .wp-submenu {
 	width: 160px;
-	background-color: #23282d;
+	/* background-color: #23282d; */
+	background-color: red;
 }
 
 #adminmenuback {
@@ -141,6 +142,7 @@
 .icon16.icon-generic,
 .menu-icon-generic div.wp-menu-image {
 	background-image: none !important;
+	background-color: #00b9eb;
 }
 
 /*------------------------------------------------------------------------------
@@ -175,7 +177,8 @@
 }
 
 #adminmenu .wp-submenu a {
-	color: #b4b9be;
+	/* color: #b4b9be; */
+	color: red;
 	color: rgba(240, 245, 250, 0.7);
 	font-size: 13px;
 	line-height: 1.4;

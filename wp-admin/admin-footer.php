@@ -34,8 +34,8 @@ global $hook_suffix;
 		<?php
 		$text = sprintf(
 			/* translators: %s: https://wordpress.org/ */
-			__( 'Thank you for creating with <a href="%s">WordPress</a>.' ),
-			__( 'https://wordpress.org/' )
+			__( 'Obrigrado por escolher a <a href="%s">Hefesto Tec</a>.' ),
+			__( 'https://hefestotec.com.br' )
 		);
 
 		/**
@@ -62,7 +62,8 @@ global $hook_suffix;
 		 *
 		 * @param string $content The content that will be printed.
 		 */
-		echo apply_filters( 'update_footer', '' );
+		// echo apply_filters( 'update_footer', '' );
+		echo 'Vida longa e próspera!'
 		?>
 	</p>
 	<div class="clear"></div>

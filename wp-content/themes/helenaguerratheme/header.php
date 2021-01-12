@@ -20,6 +20,11 @@
             <div class="Logo">
                 <a href="<?php echo home_url(); ?>">
                     <img src="http://localhost/helena-guerra/wp-content/uploads/2021/01/Destino.png" class="img-fluid" alt="Logo Helena Guerra" width="60" height="60" srcset="">
+                    <?php
+                        // if( function_exists( 'the_custom_logo' ) ) {
+                        //     the_custom_logo();
+                        // }
+                    ?>
                 </a>
             </div>
             <div class="user-area align-items-bottom">
@@ -27,17 +32,25 @@
                 <a href="#"> <span class="align-top">Área do usuário</span></a>
             </div>
         </section>
-        <section class="navbar py-2 justify-content-center bg-light">
+
+        <nav class="navbar navbar-expand-lg justify-content-center bg-light">
             <div class="row">
-                <nav class="menu col-md-12 mt-3 text-center">
-                    <?php 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse menu" id="navbarNav">
+                <?php 
                         wp_nav_menu ( 
                             array ( 
-                                'theme_location' => 'principal_menu'
+                                'theme_location' => 'principal_menu',
+                                'menu_class' => 'navbar-nav text-center w-100',
+                                'walker' => new WP_Bootstrap_Navwalker()
                             ) 
                         );
                     ?>
-                </nav>
+                </div>
             </div>
-        </section>
+        </nav>
+
+
     </header>

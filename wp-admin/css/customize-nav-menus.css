@@ -265,7 +265,8 @@
 #customize-controls .customize-info.open.active-menu-screen-options .customize-help-toggle:hover,
 #customize-controls .customize-info.open.active-menu-screen-options .customize-help-toggle:active,
 #customize-controls .customize-info.open.active-menu-screen-options .customize-help-toggle:focus {
-	color: #0073aa;
+	/* color: #0073aa; */
+	color: red;
 }
 
 .customize-screen-options-toggle:focus,

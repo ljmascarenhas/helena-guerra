@@ -1,4 +1,6 @@
 <?php
+// define('WP_HOME', 'https://localhost/helena-guerra');
+// define('WP_SITEURL', 'https://localhost/helena-guerra');
 /**
  * As configurações básicas do WordPress
  *
@@ -93,4 +95,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Configura as variáveis e arquivos do WordPress. */
 require_once ABSPATH . 'wp-settings.php';
-	
+
